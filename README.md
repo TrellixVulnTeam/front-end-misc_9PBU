@@ -1,1 +1,1 @@
-# front-end-misc
+Front-end miscellaneous
