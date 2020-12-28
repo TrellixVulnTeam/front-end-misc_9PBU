@@ -16,8 +16,12 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2 {
   padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 10px;
 }
 
 p {
@@ -73,6 +77,10 @@ p {
 .bg-primary {
   background: #f7c08a;
   color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 /* Navabar */
@@ -159,4 +167,24 @@ p {
 
 #home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
