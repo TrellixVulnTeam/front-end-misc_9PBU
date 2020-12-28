@@ -52,6 +52,7 @@ p {
   padding: 13px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -236,6 +237,33 @@ p {
   border-radius: 50%;
 }
 
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 12px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 4px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  border-radius: 4px;
+}
+
+#contact-form textarea {
+  height: 100px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border: solid 1.75px #f7c08a;
+}
 
 /* Footer */
 #main-footer {
