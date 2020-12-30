@@ -16,6 +16,7 @@
   background: #28a745;
   border: none;
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .btn:hover {
@@ -141,4 +142,13 @@
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+}
+
+.team img {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 25px;
 }
