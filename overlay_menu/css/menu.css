@@ -43,6 +43,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.4s ease;
 }
 
 /* Hamburger top and bottom lines */
@@ -57,6 +58,25 @@
   background: inherit;
 }
 
+/* Moving the line down */
 .menu-wrap .hamburger > div:after {
   top: 10px;
+}
+
+/* Toggler Animation - turning lines into X */
+/* Targeting the state of 'checked' - the style will apply only if the item is checked */
+/* + is the element right after the toggler */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
 }
