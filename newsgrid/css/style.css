@@ -137,9 +137,12 @@ h1, h2, h3, h4, h5, h6 {
 .p-2 { padding: 2rem }
 .p-3 { padding: 3rem }
 
+.l-heading {
+  font-size: 2.5rem;
+}
 .list li {
   padding: .5rem 0;
-  border-bottom: #555 dotted 1px;
+  border-bottom: #555555 solid 0.5px;
   width: 90%;
 }
 
@@ -274,6 +277,18 @@ h1, h2, h3, h4, h5, h6 {
   grid-gap: 1rem;
   align-items: center;
   grid-column: 2 / span 2;
+}
+
+#article .meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eee;
+  padding: 0.4rem 1rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
