@@ -1,1 +1,1 @@
-Front-end miscellaneous
+Miscellaneous front-end exercises.
